@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(37, 92, 37);
+    opacity: 1; 
+    /* z-index: 1; */
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid black;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 35px;
+    text-transform: uppercase;
+    position: fixed;
+    top: 0%;
+    z-index: 2;
+    background-color: rgb(37, 92, 37);
+    box-shadow: 1px 2px 10px black;
+}
+#logo{
+    height: 30px;
+    width: 30px;
+    transform: rotate(20deg);
+    border: 1px solid wheat;
+    margin-left: 10px;
+    transform: skew(-10deg)
+}
+#drop-down{
+    position: relative;
+}
+.dropDown-container{
+    display: none;
+    background-color: aliceblue;
+    position: absolute;
+    /* top: 25px; */
+    width: 250px;
+    box-shadow: 5px 5px 5px 10px rgba(126, 235, 140, 0.2);
+    /* z-index: 1; */
+}
+a:hover{
+    /* border: 2px solid red; */
+    background-color: #f1f1f1;
+}
+.dropDown-container a{
+    display: block;
+    color: black;
+    padding: 18px ;
+    text-decoration: none;
+}
+#drop-down:hover .dropDown-container{
+    /* position: relative; */
+    display: block;
+}
+h1,h3{
+    cursor: pointer;
+}
+h1{
+    margin-left: 10px;
+    font-size: 35px;
+}
+h1:hover{
+    color: white;
+}
+h1,h3:hover{
+    color: black;
+}
+
+input{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 25px;
+    font-size: larger;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(37, 92, 37);
+    display: flex;
+    /* position: absolute; */
+    /* top: 50px; */
+}
+#left{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(37, 92, 37);
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.hom{
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.hom:hover{
+    color: white;
+}
+.web:hover{
+    color: black;
+}
+.web{
+    letter-spacing: 1px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.intro{
+    color: white;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: aquamarine;
+    font-size: larger;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+    cursor: pointer;
+}
+button:hover{
+    scale: 1.1;
+    color: black;
+}
+.save{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 320px;
+    bottom: 110px;
+}
+#right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#img{
+     height: 270px;
+     width: 400px;
+     border-radius: 15px;
+     /* box-shadow: 3px 3px 5px #f1f1f1; */
+    background-image: url(./images/images/topics/undraw_Remote_design_team_re_urdx.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+footer{
+    height: 900px;
+    width: 100%;
+    background-color: white;
+    /* border: 2px solid gold; */
+}
+#fot{
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 800px;
+    /* width: 100%; */
+    /* border: 2px solid red; */
+    /* background-color: red; */
+}
+#introd{
+    padding-top: 20px;
+    margin-bottom: 25px;
+}
+p{
+    margin: 15px;
+    font-size: 17px;
+    word-spacing: 2px;
+}
+#box{
+    height: 100px;
+    width: 670px;
+    background-color: rgba(128, 128, 128,0.4);
+    position: absolute;
+    right: 20%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 15px;
+    /* letter-spacing: 1px; */
+}
+h2{
+    font-weight: 900;
+    padding-top: 15px;
+    text-align: center;
+}
+#picture{
+    margin-top: 120px;
+    height: 350px;
+    /* position: static; */
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.img-1{
+    height: 250px;
+    width: 45%;
+    border-radius: 20px ;
+    /* background-color: black; */
+    background-image: url(./images/images/businesswoman-using-tablet-analysis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-2{
+    height: 250px;
+    width: 45%;
+    margin-left: 5px;
+    border-radius: 20px ;
+    background-image: url(./images/images/colleagues-working-cozy-office-medium-shot.jpg);
+    background-size: cover;
+}
+.last-para{
+    margin-top: 5px;
+}
+#pictur{
+    margin-top: 120px;
+    height: 350px;
+    /* position: static; */
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.img-3{
+    height: 250px;
+    width: 45%;
+    margin-left: 5px;
+    border-radius: 20px ;
+    background-image: url(./images/images/colleagues-working-cozy-office-medium-shot.jpg);
+    background-size: cover;
+}
+.img-4{
+    height: 250px;
+    width: 45%;
+    margin-left: 5px;
+    border-radius: 20px ;
+    background-image: url(./images/images/colleagues-working-cozy-office-medium-shot.jpg);
+    background-size: cover;
+}
+#last{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(224, 204, 204);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#img-3{
+    height: 250px;
+    width: 35%;
+    margin-left: 5px;
+    border-radius: 20px ;
+    background-image: url(./images/images/rear-view-young-college-student.jpg);
+    background-size: cover;
+}
+#details{
+    height: 250px;
+    width: 35%;
+    position: relative;
+}
+.get{
+    position: absolute; 
+    left: 1px; 
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.email{
+    left: 0px;
+    position: absolute;
+    height: 50px;
+    width: 300px;
+    bottom: 100px;
+    border-radius: 25px;
+    padding-left: 10px;
+    left: 1px;
+    outline: none;
+    background-color: #f1f1f1;
+    font-size: 19px;
+    margin: 0px;
+}
+.email:hover{
+    cursor:text;
+}
+.sub{
+    height: 50px;
+    width: 300px;
+    background-color: darkgreen;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border: none;
+}
+.sub:hover{
+    scale: 1;
+    color: white;
+    opacity: 0.8;
+}
