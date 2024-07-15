@@ -163,7 +163,7 @@ button:hover{
      width: 400px;
      border-radius: 15px;
      /* box-shadow: 3px 3px 5px #f1f1f1; */
-    background-image: url(./images/images/topics/undraw_Remote_design_team_re_urdx.png);
+    background-image: url(./undraw_Remote_design_team_re_urdx.png);
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 1;
@@ -223,7 +223,7 @@ h2{
     width: 45%;
     border-radius: 20px ;
     /* background-color: black; */
-    background-image: url(./images/images/businesswoman-using-tablet-analysis.jpg);
+    background-image: url(./businesswoman-using-tablet-analysis.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -232,7 +232,7 @@ h2{
     width: 45%;
     margin-left: 5px;
     border-radius: 20px ;
-    background-image: url(./images/images/colleagues-working-cozy-office-medium-shot.jpg);
+    background-image: url(./colleagues-working-cozy-office-medium-shot.jpg);
     background-size: cover;
 }
 .last-para{
@@ -253,7 +253,7 @@ h2{
     width: 45%;
     margin-left: 5px;
     border-radius: 20px ;
-    background-image: url(./images/images/colleagues-working-cozy-office-medium-shot.jpg);
+    background-image: url(./colleagues-working-cozy-office-medium-shot.jpg);
     background-size: cover;
 }
 .img-4{
@@ -261,7 +261,7 @@ h2{
     width: 45%;
     margin-left: 5px;
     border-radius: 20px ;
-    background-image: url(./images/images/colleagues-working-cozy-office-medium-shot.jpg);
+    background-image: url(./colleagues-working-cozy-office-medium-shot.jpg);
     background-size: cover;
 }
 #last{
@@ -277,7 +277,7 @@ h2{
     width: 35%;
     margin-left: 5px;
     border-radius: 20px ;
-    background-image: url(./images/images/rear-view-young-college-student.jpg);
+    background-image: url(./rear-view-young-college-student.jpg);
     background-size: cover;
 }
 #details{
